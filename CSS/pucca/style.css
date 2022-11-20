@@ -1,0 +1,39 @@
+body{
+    background: rgb(255, 189, 189); 
+    color: rgb(0, 0, 0);
+    font-family: 'Secular One', 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#principal{
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    display: flexbox;
+    
+}
+
+#cabecalho{
+}
+
+#navbar{
+    text-shadow: 1px 1px #000000;
+
+}
+
+#postagem{
+    padding: 10px;
+}
+a {
+    color:rgb(226, 100, 100);
+    text-decoration: none;
+    border: 1px;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.centralizar{
+    text-align: center;
+}
