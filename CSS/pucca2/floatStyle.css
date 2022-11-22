@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    font-size: 1em;
+    font-family: 'Secular One', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(0, 0, 0);
+}
+
+#principal{
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    display: flexbox;
+}
+
+/*menu*/
+#navbar {
+    text-shadow: 1px 1px #000000;
+    color: rgb(224, 127, 127);
+    padding: 10px;
+    margin: 0 180px;
+    text-decoration: none;
+}
+
+a{
+    color: rgb(255, 104, 104);
+    text-decoration: none;
+
+}
+
+a:hover{
+    color: rgb(167, 32, 32);
+    background-color: rgb(233, 143, 143);
+    border-radius: 15px;
+    font-size: 120%;
+
+}
+
+/* a:visited {
+    color: rgb(163, 12, 12);
+} */
+
+p{
+    color: white;
+}
+h6{
+    color: white;
+    border-bottom: 1px solid rgb(167, 32, 32);
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+h2{
+    color: rgb(167, 32, 32)
+}
+
+h3{
+    background-color: rgb(218, 37, 37);
+    margin-bottom: 15px;
+}
+a:active {
+    color: rgb(0, 0, 0);
+    font-size: 150%;
+  }
+
+/*fim menu*/
+
+/*postagens*/
+
+#area-post{
+    width: 920px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+#conteudo{
+    width: 550px;
+    float: left;
+    margin-left: 50px;
+}
+
+#lateral{
+    width: 240px;
+    background-color: #dd5555;
+    float: right;
+    margin-right: 50px;
+    padding: 15;
+}
+
+#rodape{
+    clear: both;
+    text-align: center;
+    color:rgb(167, 32, 32);
+    padding: 15px;
+
+
+}
+
+.post{
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #dd5555;
+    
+}
+
+.post a{
+    color:rgb(167, 32, 32);
+}
+
+#lateral a:hover{
+    color: rgb(167, 32, 32);
+    background-color: rgb(233, 143, 143);
+    border-radius: 15px;
+
+}
+.maisConteudo{
+    padding: 15px;
+}
+.maisConteudo a{
+    color:rgb(167, 32, 32);
+    padding: 15px;
+}
